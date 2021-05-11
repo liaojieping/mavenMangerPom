@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class co {
-    @GetMapping("/child")
+    @GetMapping("/child1")
       public String aa(){
           return "子2";
       }
