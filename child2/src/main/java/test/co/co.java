@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class co {
     @GetMapping("/child1")
       public String aa(){
-          return "子2";
+          return "远程分支";
       }
 
 }
